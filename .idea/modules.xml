@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud2Service.iml" filepath="$PROJECT_DIR$/SpringCloud2Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringEureka/SpringEureka.iml" filepath="$PROJECT_DIR$/SpringEureka/SpringEureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springGateway/springGateway.iml" filepath="$PROJECT_DIR$/springGateway/springGateway.iml" />
+    </modules>
+  </component>
+</project>

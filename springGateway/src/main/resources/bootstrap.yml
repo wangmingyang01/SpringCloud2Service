@@ -1,0 +1,31 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: springSwagger # 路由id,唯一值不可重复，如果不写默认是uuid 唯一值
+          uri: lb://springSwagger  #lb://后面则是Eureka上的服务名;　http://后面则是某个服务的地址，可具体到某个controller方法
+          order: 0 # 路由的执行order,越少优先级越高
+          predicates:
+            - Path=/swagger/** #设置路由断言,该路径前缀会请求到uri服务上
+            - Method=GET,POST # 请求方式
+            - Host=**.foo.org
+            - Header=X-Request-Id, \d+
+            - Query=foo, ba.
+            - Query=baz
+            - Cookie=chocolate, ch.p # 路由规则会通过获取对应的 Cookie name 值和正则表达式去匹配
+            - After=2018-01-20T06:06:06+08:00[Asia/Shanghai] # 请求时间在 2019年1月1日0点0分0秒之后的所有请求都转发（Before）
+          filters:
+            - StripPrefix=1 # 配置转发路径：Path=/user/**，但是controller中并没有以/user/**开头，这样转发到具体服务会自动去掉/user
+            - name: Authorization # 自定义过滤器类,类名一定要为filterName + GatewayFilterFactory(定义一个类实现GatewayFilterFactory接口, 这里是AuthorizationGatewayFilterFactory类)
+
+        - id: springFeignClient
+          uri: lb://springFeignClient # http://localhost:10002
+          predicates:
+            - Path=/feign/**
+          filters:
+            - StripPrefix=1
+            #- name: Authorization
+
+
+
+
