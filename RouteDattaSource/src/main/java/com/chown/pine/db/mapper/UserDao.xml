@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.chown.pine.db.dao.UserDao">
+
+    <!--广告数据列信息-->
+    <sql id="user_COLUMN">
+       id, name, code
+    </sql>
+
+    <!-- 增加 -->
+    <insert id="addUser" parameterType="com.chown.pine.db.entity.User">
+        INSERT INTO user(name,code) VALUES(#{name}, #{code})
+    </insert>
+
+    <!-- 查询 -->
+    <select id="queryUserById" parameterType="Long" resultType="com.chown.pine.db.entity.User">
+		SELECT <include refid="user_COLUMN"/> FROM user WHERE id = #{id}
+	</select>
+
+    <!-- 删除 -->
+    <delete id="delUser">
+        DELETE FROM user WHERE id = #{id}
+    </delete>
+
+</mapper>

@@ -6,14 +6,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="mysqlMasterSlave" />
+        <module name="routeDataSource" />
+        <module name="RouteDattaSource" />
         <module name="SpringEureka" />
         <module name="springGateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="mysqlMasterSlave" target="1.8" />
+      <module name="RouteDataSource" target="1.8" />
+      <module name="routeDataSource" target="1.8" />
+      <module name="RouteDattaSource" target="1.8" />
       <module name="SpringCloud2Service" target="1.8" />
       <module name="SpringEureka" target="1.8" />
       <module name="springGateway" target="1.8" />
+      <module name="UserTest" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
