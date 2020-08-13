@@ -1,10 +1,10 @@
 package com.chown.pine.config.dataSourceConfig;
 
 import com.alibaba.druid.pool.DruidDataSource;
+import com.chown.pine.config.MybatisConfiguration;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.mybatis.spring.SqlSessionTemplate;
-import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
@@ -15,8 +15,6 @@ import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 
 import javax.sql.DataSource;
-
-import static com.chown.pine.config.MybatisConfiguration.MAPPER_PATH;
 
 /**
  * spring 整合 mybatis 配置SqlSessionTemplate
@@ -64,7 +62,7 @@ public class MasterDataSource {
             throws Exception {
         SqlSessionFactoryBean sessionFactory = new SqlSessionFactoryBean();
         sessionFactory.setDataSource(mysqlDataSource);
-        sessionFactory.setMapperLocations(new PathMatchingResourcePatternResolver().getResources(MAPPER_PATH));
+        sessionFactory.setMapperLocations(new PathMatchingResourcePatternResolver().getResources(MybatisConfiguration.MAPPER_PATH));
         return sessionFactory.getObject();
     }
 

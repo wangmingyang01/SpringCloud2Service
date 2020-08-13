@@ -2,57 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="902a3527-6adc-4d1c-ba9f-b21c5e9234d5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_5_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RouteDattaSource/RouteDattaSource.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RouteDattaSource/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/RouteDataSourceApp.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/aspect/DataOperateAop.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/config/DataSourceConfiguration.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/config/MyAbstractRoutingDataSource.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/config/MybatisConfiguration.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/config/dataSourceConfig/MasterDataSource.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/config/dataSourceConfig/salve01DataSource.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/config/dataSourceConfig/salve02DataSource.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/cons/DataSourceType.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/context/DataSourceContextHolder.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/controller/QueryController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/db/dao/UserDao.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/db/entity/User.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/db/mapper/UserDao.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/service/QueryService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RouteDattaSource/src/main/resources/application.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RouteDattaSource/src/main/resources/mybatis.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SpringEureka/src/main/java/com/shls/config/WebSecurityConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/springGateway/src/main/java/com/shls/dynamicRoute/GatewayDynamicRouteService.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_33_Final.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_1_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_3_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_core_2_1_0_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_1_1_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_archaius_1_2_6_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_eureka_server_1_2_6_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_eureka_unknown.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_eureka_1_4_2_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_ribbon_1_2_6_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_1_4_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_1_4_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_1_4_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_core_2_1_0_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_0_4_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_0_4_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_2_0_4_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_1_3_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_1_3_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_2_1_3_RELEASE.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/SpringCloud2Service.iml" afterPath="$PROJECT_DIR$/SpringCloud2Service.iml" />
+      <change beforePath="$PROJECT_DIR$/RouteDattaSource/RouteDattaSource.iml" afterPath="$PROJECT_DIR$/RouteDattaSource/RouteDattaSource.iml" />
+      <change beforePath="$PROJECT_DIR$/RouteDattaSource/pom.xml" afterPath="$PROJECT_DIR$/RouteDattaSource/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/config/dataSourceConfig/MasterDataSource.java" afterPath="$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/config/dataSourceConfig/MasterDataSource.java" />
+      <change beforePath="$PROJECT_DIR$/RouteDattaSource/target/classes/com/chown/pine/RouteDataSourceApp.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/RouteDattaSource/target/classes/com/chown/pine/aspect/DataOperateAop.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/RouteDattaSource/target/classes/com/chown/pine/config/DataSourceConfiguration.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/RouteDattaSource/target/classes/com/chown/pine/config/MyAbstractRoutingDataSource.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/RouteDattaSource/target/classes/com/chown/pine/config/MybatisConfiguration.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/RouteDattaSource/target/classes/com/chown/pine/config/dataSourceConfig/MasterDataSource.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/RouteDattaSource/target/classes/com/chown/pine/config/dataSourceConfig/salve01DataSource.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/RouteDattaSource/target/classes/com/chown/pine/config/dataSourceConfig/salve02DataSource.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/RouteDattaSource/target/classes/com/chown/pine/cons/DataSourceType.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/RouteDattaSource/target/classes/com/chown/pine/context/DataSourceContextHolder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/RouteDattaSource/target/classes/com/chown/pine/controller/QueryController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/RouteDattaSource/target/classes/com/chown/pine/db/dao/UserDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/RouteDattaSource/target/classes/com/chown/pine/db/entity/User.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/RouteDattaSource/target/classes/com/chown/pine/service/QueryService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/RouteDattaSource/target/classes/mybatis.properties" afterPath="$PROJECT_DIR$/RouteDattaSource/target/classes/mybatis.properties" />
       <change beforePath="$PROJECT_DIR$/SpringEureka/SpringEureka.iml" afterPath="$PROJECT_DIR$/SpringEureka/SpringEureka.iml" />
       <change beforePath="$PROJECT_DIR$/SpringEureka/pom.xml" afterPath="$PROJECT_DIR$/SpringEureka/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/SpringEureka/src/main/resources/bootstrap.properties" afterPath="$PROJECT_DIR$/SpringEureka/src/main/resources/bootstrap.properties" />
-      <change beforePath="$PROJECT_DIR$/SpringEureka/target/classes/bootstrap.properties" afterPath="$PROJECT_DIR$/SpringEureka/target/classes/bootstrap.properties" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change beforePath="$PROJECT_DIR$/springGateway/pom.xml" afterPath="$PROJECT_DIR$/springGateway/pom.xml" />
       <change beforePath="$PROJECT_DIR$/springGateway/springGateway.iml" afterPath="$PROJECT_DIR$/springGateway/springGateway.iml" />
-      <change beforePath="$PROJECT_DIR$/springGateway/src/main/java/com/shls/GatewayApp.java" afterPath="$PROJECT_DIR$/springGateway/src/main/java/com/shls/GatewayApp.java" />
-      <change beforePath="$PROJECT_DIR$/springGateway/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/springGateway/src/main/resources/application.properties" />
-      <change beforePath="$PROJECT_DIR$/springGateway/target/classes/com/shls/GatewayApp.class" afterPath="$PROJECT_DIR$/springGateway/target/classes/com/shls/GatewayApp.class" />
     </list>
     <ignored path="$PROJECT_DIR$/SpringEureka/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -70,14 +56,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="QueryService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/service/QueryService.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-1380">
+              <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -85,8 +69,8 @@
       <file leaf-file-name="MyAbstractRoutingDataSource.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/config/MyAbstractRoutingDataSource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="35" column="11" lean-forward="false" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+            <state relative-caret-position="13">
+              <caret line="27" column="74" lean-forward="false" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="74" />
               <folding>
                 <element signature="e#841#842#0" expanded="true" />
                 <element signature="e#888#889#0" expanded="true" />
@@ -95,14 +79,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MasterDataSource.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MasterDataSource.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/config/dataSourceConfig/MasterDataSource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="42" column="23" lean-forward="false" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="23" />
+            <state relative-caret-position="-220">
+              <caret line="14" column="65" lean-forward="false" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1055#1081#1" expanded="true" />
+                <element signature="e#986#1012#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -111,28 +94,8 @@
       <file leaf-file-name="MybatisConfiguration.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/config/MybatisConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="106" column="64" lean-forward="true" selection-start-line="106" selection-start-column="64" selection-end-line="106" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EnableTransactionManagement.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.1.5.RELEASE/spring-tx-5.1.5.RELEASE.jar!/org/springframework/transaction/annotation/EnableTransactionManagement.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mybatis.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RouteDattaSource/src/main/resources/mybatis.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="315">
+              <caret line="47" column="33" lean-forward="false" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -142,38 +105,60 @@
         <entry file="file://$PROJECT_DIR$/RouteDattaSource/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="66">
-              <caret line="3" column="83" lean-forward="false" selection-start-line="3" selection-start-column="83" selection-end-line="3" selection-end-column="83" />
+              <caret line="3" column="75" lean-forward="false" selection-start-line="3" selection-start-column="75" selection-end-line="3" selection-end-column="75" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="salve01DataSource.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/config/dataSourceConfig/salve01DataSource.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringEureka/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="15" column="47" lean-forward="false" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+            <state relative-caret-position="286">
+              <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataSourceConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/config/DataSourceConfiguration.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springGateway/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="51" column="33" lean-forward="false" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="33" />
+            <state relative-caret-position="396">
+              <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="salve02DataSource.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/config/dataSourceConfig/salve02DataSource.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RouteDattaSource/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="14" column="47" lean-forward="false" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+            <state relative-caret-position="402">
+              <caret line="41" column="26" lean-forward="false" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringEureka/src/main/resources/bootstrap.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebSecurityConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringEureka/src/main/java/com/shls/config/WebSecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -214,25 +199,20 @@
         <option value="$PROJECT_DIR$/RouteDattaSource/target/classes/application.properties" />
         <option value="$PROJECT_DIR$/springGateway/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/springGateway/src/main/java/com/shls/GatewayApp.java" />
-        <option value="$PROJECT_DIR$/springGateway/pom.xml" />
         <option value="$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/config/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/ApplicationBootstrap.java" />
         <option value="$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/db/dao/AdMapper.java" />
         <option value="$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/config/dataSourceConfig/MysqlSessionTemplate.java" />
         <option value="$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/config/dataSourceConfig/masterDataSource.java" />
-        <option value="$PROJECT_DIR$/RouteDattaSource/pom.xml" />
         <option value="$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/cons/DataSourceType.java" />
         <option value="$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/context/DataSourceContextHolder.java" />
         <option value="$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/aspect/DataOperateAop.java" />
-        <option value="$PROJECT_DIR$/SpringEureka/src/main/resources/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/SpringEureka/src/main/java/com/shls/config/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/RouteDataSourceApp.java" />
         <option value="$PROJECT_DIR$/UserTest/src/main/java/com/shls/RouteDataSourceApp.java" />
         <option value="$PROJECT_DIR$/UserTest/pom.xml" />
         <option value="$PROJECT_DIR$/UserTest/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/SpringEureka/src/main/java/com/shls/config/controller/queryController.java" />
         <option value="$PROJECT_DIR$/UserTest/src/main/java/com/shls/controller/queryController.java" />
-        <option value="$PROJECT_DIR$/SpringEureka/pom.xml" />
         <option value="$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/config/DataSourceConfiguration.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/queryService.java" />
@@ -243,11 +223,16 @@
         <option value="$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/service/QueryService.java" />
         <option value="$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/config/dataSourceConfig/salve01DataSource.java" />
         <option value="$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/config/dataSourceConfig/salve02DataSource.java" />
-        <option value="$PROJECT_DIR$/RouteDattaSource/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/config/dataSourceConfig/MasterDataSource.java" />
         <option value="$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/config/MybatisConfiguration.java" />
         <option value="$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/config/MyAbstractRoutingDataSource.java" />
         <option value="$PROJECT_DIR$/RouteDattaSource/src/main/resources/mybatis.properties" />
+        <option value="$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/config/dataSourceConfig/MasterDataSource.java" />
+        <option value="$PROJECT_DIR$/SpringEureka/src/main/java/com/shls/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/SpringEureka/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/RouteDattaSource/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/SpringEureka/pom.xml" />
+        <option value="$PROJECT_DIR$/RouteDattaSource/pom.xml" />
+        <option value="$PROJECT_DIR$/springGateway/pom.xml" />
       </list>
     </option>
   </component>
@@ -391,6 +376,37 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud2Service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud2Service" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringEureka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud2Service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud2Service" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringEureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud2Service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud2Service" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringEureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud2Service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud2Service" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringEureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud2Service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud2Service" type="462c0819:PsiDirectoryNode" />
+              <item name="springGateway" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringCloud2Service" type="b2602c69:ProjectViewProjectNode" />
@@ -729,7 +745,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50763000" />
+    <option name="totallyTimeSpent" value="52656000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -742,7 +758,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="61" y="0" width="1859" height="1080" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
@@ -761,7 +776,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32822758" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3358862" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26204985" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="279" y="132" width="482" height="914" />
@@ -946,14 +961,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springGateway/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springGateway/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1042,14 +1049,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RouteDattaSource/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="42" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpringEureka/src/main/java/com/shls/config/controller/queryController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -1090,50 +1089,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringEureka/src/main/java/com/shls/config/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="66" lean-forward="false" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/queryService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/config/DataSourceTransactionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="40" column="29" lean-forward="true" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringEureka/src/main/resources/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringEureka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="27" column="21" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1151,7 +1110,7 @@
         <state relative-caret-position="374">
           <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1160,22 +1119,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/config/DataSourceConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="51" column="33" lean-forward="false" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RouteDattaSource/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="83" lean-forward="false" selection-start-line="3" selection-start-column="83" selection-end-line="3" selection-end-column="83" />
           <folding />
         </state>
       </provider>
@@ -1204,18 +1147,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/config/MybatisConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/config/DataSourceConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="106" column="64" lean-forward="true" selection-start-line="106" selection-start-column="64" selection-end-line="106" selection-end-column="64" />
+        <state relative-caret-position="375">
+          <caret line="51" column="33" lean-forward="false" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/config/MyAbstractRoutingDataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="35" column="11" lean-forward="false" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+        <state relative-caret-position="13">
+          <caret line="27" column="74" lean-forward="false" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="74" />
           <folding>
             <element signature="e#841#842#0" expanded="true" />
             <element signature="e#888#889#0" expanded="true" />
@@ -1223,14 +1166,87 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/config/MybatisConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="47" column="33" lean-forward="false" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/config/dataSourceConfig/MasterDataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="42" column="23" lean-forward="false" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="23" />
+        <state relative-caret-position="-220">
+          <caret line="14" column="65" lean-forward="false" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+          <folding>
+            <element signature="e#986#1012#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringEureka/src/main/java/com/shls/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1055#1081#1" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringEureka/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RouteDattaSource/src/main/java/com/chown/pine/config/DataSourceTransactionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="40" column="29" lean-forward="true" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1380">
+          <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RouteDattaSource/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="75" lean-forward="false" selection-start-line="3" selection-start-column="75" selection-end-line="3" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RouteDattaSource/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="41" column="26" lean-forward="false" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringEureka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springGateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
